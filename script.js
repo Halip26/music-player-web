@@ -13,41 +13,47 @@ const image = document.getElementById("cover"),
 const music = new Audio();
 
 const songs = [
-//   {
-//     path: "assets/1.mp3",
-//     displayName: "The Charmer's Call",
-//     cover: "assets/1.jpg",
-//     artist: "Hanu Dixit",
-//   },
-//   {
-//     path: "assets/2.mp3",
-//     displayName: "You Will Never See Me Coming",
-//     cover: "assets/2.jpg",
-//     artist: "NEFFEX",
-//   },
-//   {
-//     path: "assets/3.mp3",
-//     displayName: "Intellect",
-//     cover: "assets/3.jpg",
-//     artist: "Yung Logos",
-//   },
+  // {
+  //   path: "assets/1.mp3",
+  //   displayName: "The Charmer's Call",
+  //   cover: "assets/1.jpg",
+  //   artist: "Hanu Dixit",
+  // },
+  // {
+  //   path: "assets/2.mp3",
+  //   displayName: "You Will Never See Me Coming",
+  //   cover: "assets/2.jpg",
+  //   artist: "NEFFEX",
+  // },
+  // {
+  //   path: "assets/3.mp3",
+  //   displayName: "Intellect",
+  //   cover: "assets/3.jpg",
+  //   artist: "Yung Logos",
+  // },
   {
     path: "assets/4.mp3",
     displayName: "Bergema sampai selamanya",
     cover: "assets/4.png",
     artist: "Nadif Basalamah",
   },
-  {
-    path: "assets/5.mp3",
-    displayName: "Nemuru Machi",
-    cover: "assets/5.png",
-    artist: "Keitaa Ch.",
-  },
+  // {
+  //   path: "assets/5.mp3",
+  //   displayName: "Nemuru Machi",
+  //   cover: "assets/5.png",
+  //   artist: "Keitaa Ch.",
+  // },
   {
     path: "assets/6.mp3",
     displayName: "Sparkle by Radwimps",
     cover: "assets/6.png",
     artist: "Kobasolo feat.Harutya",
+  },
+  {
+    path: "assets/7.mp3",
+    displayName: "Top 10 staTues tHat CriEd bloOd",
+    cover: "https://i.scdn.co/image/ab67616d00001e02df51a3d66223e5b01813e0c4",
+    artist: "Bring Me the Horizon",
   },
 ];
 
