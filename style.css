@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
   font-size: 12px;
   min-height: 100vh;
   display: flex;
@@ -42,12 +42,12 @@ body {
   height: 500px;
   width: 400px;
   border-radius: 20px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 15px 30px #0000004d;
   transition: all 0.5s ease;
 }
 
 .container:hover {
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 15px 30px #00000099;
 }
 
 .player-img {
@@ -64,11 +64,11 @@ body {
   height: 0;
   width: 0;
   opacity: 0;
-  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 30px 5px #00000080;
 }
 
 .player-img:hover img {
-  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px 30px 5px #000000cc;
 }
 
 .player-img img.active {
@@ -102,7 +102,7 @@ h3 {
 }
 
 .progress {
-  background-color: #212121;
+  background-color: #9be1ff;
   border-radius: 5px;
   height: 100%;
   width: 0%;
@@ -144,8 +144,76 @@ h3 {
 
 /* responsive for iPhone 14 Pro Max */
 @media only screen and (max-width: 430px) {
+  .container {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .player-img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .player-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .player-controls {
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fa-solid {
+    margin-right: 0;
+  }
+
+  .play-button{
+    font-size: 28px;
+  }
 }
 
 /* responsive for iPad mini */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .player-img {
+    width: 80%;
+    height: auto;
+    top: 0;
+    left: 10%;
+  }
+
+  .player-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .player-controls {
+    left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fa-solid {
+    margin-right: 0;
+  }
 }
