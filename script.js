@@ -32,6 +32,12 @@ const songs = [
   //   artist: "Yung Logos",
   // },
   {
+    path: "assets/7.mp3",
+    displayName: "Top 10 staTues tHat CriEd bloOd",
+    cover: "https://i.scdn.co/image/ab67616d00001e02df51a3d66223e5b01813e0c4",
+    artist: "Bring Me the Horizon",
+  },
+  {
     path: "assets/4.mp3",
     displayName: "Bergema sampai selamanya",
     cover: "assets/4.png",
@@ -48,12 +54,6 @@ const songs = [
     displayName: "Sparkle by Radwimps",
     cover: "assets/6.png",
     artist: "Kobasolo feat.Harutya",
-  },
-  {
-    path: "assets/7.mp3",
-    displayName: "Top 10 staTues tHat CriEd bloOd",
-    cover: "https://i.scdn.co/image/ab67616d00001e02df51a3d66223e5b01813e0c4",
-    artist: "Bring Me the Horizon",
   },
 ];
 
